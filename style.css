@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ad4488, #428392);
+    color: white;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #223243;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    gap: 10px;
+}
+#length{
+    background-color: transparent;
+    color: white;
+}
+
+#copy-btn{
+    position: absolute;
+    fill: white;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+#password{
+    width: 18rem;
+    padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.controls label{
+    display: block;
+    margin-bottom: 10px;
+}
+#generate-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background: #2980b9;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
